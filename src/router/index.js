@@ -1,11 +1,10 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import HomeView from '../views/HomeView.vue';
-import DAOView from '../views/DAOView.vue';
-import PicksView from '../views/PicksView.vue';
-import RugRadarView from '../views/RugRadarView.vue';
-import AboutView from '../views/AboutView.vue';
-
+import HomeView from '../views/HomeView';
+// import DAOView from '../views/DAOView';
+// import PicksView from '../views/PicksView';
+// import RugRadarView from '../views/RugRadarView';
+// import AboutView from '../views/AboutView';
 
 Vue.use(VueRouter);
 
@@ -15,14 +14,14 @@ const routes = [
     name: 'HomeView',
     component: HomeView,
   },
-  {
-    path: '/dao',
-    name: 'AboutView',
-  },
-  {
-    path: '/about',
-    name: 'AboutView',
-  },
+  // {
+  //   path: '/dao',
+  //   name: 'AboutView',
+  // },
+  // {
+  //   path: '/about',
+  //   name: 'AboutView',
+  // },
 ];
 
 const router = new VueRouter({

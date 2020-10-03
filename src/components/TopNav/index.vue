@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <div class="navbar-item">
         <router-link class="navbar-item" to="/">
-          <img class="logo" src="@/assets/devo-logo@.png" alt="Devo logo" height=45>
+          <img class="logo" src="@/assets/devo-logo.png" alt="Devo logo">
         </router-link>
       </div>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
@@ -33,23 +33,22 @@ export default {
   name: 'TopNav',
   components: {
   },
-  data: function () {
+  data() {
     return {
-      isOpen: false
-    }
+      isOpen: false,
+    };
   },
-  mounted () {
-    window.scrollTo(0, 0)
+  mounted() {
   },
   computed: {
   },
   methods: {
-    doLogout: function () {
-      this.$store.commit('REMOVE_SESSION_TOKEN')
-      this.$router.push({ path: '/' })
-    }
-  }
-}
+    // doLogout: function () {
+    //   this.$store.commit('REMOVE_SESSION_TOKEN')
+    //   this.$router.push({ path: '/' })
+    // }
+  },
+};
 </script>
 
 <style scoped lang="scss">

@@ -1,0 +1,94 @@
+@import "@/scss/_variables.scss";
+
+.navbar {
+  background: rgba(0, 0, 0, 0); /* fallback for old browsers */
+  .navbar-item {
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .logo {
+    margin-top: 0px;
+    padding-top: 0px;
+    height: 45px;
+  }
+
+  .navbar-item .buttons {
+    font-size: 20px;
+  }
+
+  .navbar-item .is-text {
+    text-decoration: none;
+  }
+
+  .navbar-item:hover {
+    background-color: transparent !important;
+  }
+
+  .navbar-menu {
+    background: transparent;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    margin: -1em;
+    padding: 0.5em;
+
+    .logo {
+      height: 2em;
+      background: transparent;
+    }
+
+    .navbar-menu .is-active {
+      background-color: rgba(0,0,0,0);
+    }
+
+    .navbar-burger {
+      top: 0.7em;
+      left: -1em;
+      display: block;
+      position: relative;
+      float: right;
+      height: 40px;
+      width: 40px;
+    }
+
+    .navbar-burger span {
+      background: white;
+      display: block;
+      position: absolute;
+      border-radius: 9px;
+      z-index: 10;
+      height: 4px;
+      width: 90%;
+      left: 0;
+    }
+
+    .navbar-burger {
+      right: 1em;
+      background-color: transparent;
+    }
+    .navbar-item {
+      padding-left: 0.5em;
+      padding-bottom: 0.5em;
+    }
+    .navbar-item .blog,
+    .navbar-item .login {
+      padding-left: 0.5em;
+      line-height: 2;
+    }
+
+    .navbar-burger span:nth-child(1) {
+      top: 14px;
+    }
+    .navbar-burger span:nth-child(2) {
+      top: 24px;
+    }
+    .navbar-burger span:nth-child(2) {
+      top: 34px;
+    }
+  }
+}

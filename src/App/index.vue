@@ -1,11 +1,12 @@
 <template>
   <div class="app">
-    <TopNav /> 
+    WHAT THE FUK
+    <TopNav />
   </div>
 </template>
 
 <script lang="javascript">
-import TopNav from '@/components/TopNav.vue';
+import TopNav from '@/components/TopNav';
 
 export default {
   name: 'App',
@@ -16,6 +17,5 @@ export default {
 </script>
 
 <style scoped>
-    @import './style.scss';
+    /* @import './style.scss'; */
 </style>
-

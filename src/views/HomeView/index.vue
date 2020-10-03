@@ -5,13 +5,12 @@
 </template>
 
 <script>
-// @ is an alias to /src
-// import HelloWorld from '@/components/HelloWorld.vue';
+import DevoHero from '../../components/DevoHero';
 
 export default {
   name: 'Home',
   components: {
-    Hero,
+    DevoHero,
   },
 };
 </script>

@@ -3,9 +3,9 @@
 
     <div class="column is-full">
       <div class="columns hero-background clip-ellipse">
-        
+
         <div class="column is-full">
-          
+
           <div class="columns">
             <div class="column is-full">
               <TopNav />
@@ -23,13 +23,13 @@
       </div>
 
     </div>
-    
+
   </div>
 
 </template>
 
 <script lang="javascript">
-import TopNav from '@/components/TopNav'
+import TopNav from '@/components/TopNav';
 
 export default {
   name: 'AboutView',
@@ -47,10 +47,10 @@ export default {
       { property: 'og:description', content: 'Bread for the plebs' }
     ]
   }, */
-  mounted () {
-    this.$store.dispatch('resetAllForms')
-  }
-}
+  mounted() {
+    this.$store.dispatch('resetAllForms');
+  },
+};
 </script>
 
 <style lang="scss" scoped>
