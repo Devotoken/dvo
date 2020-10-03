@@ -7,14 +7,24 @@
         <div class="column is-full">
 
           <div class="columns">
-            <div class="column is-full">
-              <TopNav />
+            <div class="column is-full has-text-centered">
+              <div class="is-size-1 title">
+                About Things
+              </div>
             </div>
           </div>
-
           <div class="columns">
-            <div class="column is-full">
-              <Hero />
+            <div class="column is-6 is-offset-3 has-text-centered">
+              <div class="is-size-3 subtitle">
+                 And then some other things... 
+              </div>
+            </div>
+          </div>
+          <div class="columns">
+            <div class="column is-6 is-offset-3 has-text-centered">
+              <div class="is-size-5 textual">
+                 And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally... (see views/ThisComponent/_style.scss)
+              </div>
             </div>
           </div>
 
@@ -29,30 +39,27 @@
 </template>
 
 <script lang="javascript">
-import TopNav from '@/components/TopNav';
 
 export default {
   name: 'AboutView',
   components: {
-    TopNav,
   },
-  /*
   metaInfo: {
     title: 'About',
     titleTemplate: '%s | Devo Dude',
     meta: [
-      { name: 'description', content: 'Ya'll know what this is ABOUT' },
-      { property: 'og:title', content: 'Devo About' },
-      { property: 'og:site_name', content: 'DEVO' },
-      { property: 'og:description', content: 'Bread for the plebs' }
+      { property: 'description', content: 'Bread for the plebs'},
+      { property: 'og:title', content: 'About Devo'},
+      { property: 'og:site_name', content: 'DEVO'},
+      { property: 'og:description', content: 'Bread for the plebs'}
     ]
-  }, */
+  },
   mounted() {
     this.$store.dispatch('resetAllForms');
   },
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
   @import "./style";
 </style>

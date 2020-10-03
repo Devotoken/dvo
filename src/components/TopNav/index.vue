@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <div class="navbar-item">
         <router-link class="navbar-item" to="/">
-          <img class="logo" height="500px" src="@/assets/devo-logo.png" alt="Devo logo">
+          <img class="logo-img" src="@/assets/devo-logo.png" alt="Devo logo">
         </router-link>
       </div>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
@@ -18,8 +18,8 @@
       <div class="navbar-end has-text-left">
         <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/">home</router-link></div>
         <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/dao">devoDAO</router-link></div>
-        <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/picks">Devo's Certified Picks</router-link></div>
-        <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/rug-radar">Rug Radar</router-link></div>
+        <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/picks">Devo's Certified Picks&trade;</router-link></div>
+        <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/rug-radar">Rug Radar&trade;</router-link></div>
         <div class="navbar-item"><router-link class="navbar-item has-text-white" to="/about">about</router-link></div>
       </div>
     </div>
