@@ -3,7 +3,7 @@
     <div class="navbar-brand">
       <div class="navbar-item">
         <router-link class="navbar-item" to="/">
-          <img class="logo" src="@/assets/devo-logo.png" alt="Devo logo">
+          <img class="logo" height="500px" src="@/assets/devo-logo.png" alt="Devo logo">
         </router-link>
       </div>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">

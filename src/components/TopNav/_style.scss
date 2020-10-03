@@ -1,18 +1,11 @@
-@import "@/scss/_variables.scss";
-
 .navbar {
   background: rgba(0, 0, 0, 0); /* fallback for old browsers */
+
   .navbar-item {
     font-size: 20px;
     line-height: 24px;
     padding-left: 1em;
     padding-right: 1em;
-  }
-
-  .logo {
-    margin: 30px;
-    padding: 3px;
-    height: 45px;
   }
 
   .navbar-item .buttons {
@@ -38,8 +31,16 @@
     padding: 0.5em;
 
     .logo {
-      height: 2em;
+      height: 300px;
       background: transparent;
+      margin-top: 9px;
+    }
+
+    .logo-shadow {
+      height: 300px;
+      background: transparent;
+      margin-top: 15px;
+      margin-bottom: 60px;
     }
 
     .navbar-menu .is-active {
