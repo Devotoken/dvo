@@ -1,8 +1,10 @@
 import Vue from 'vue';
+import '@/scss/site.scss';
 import App from './App.vue';
 import router from './router';
 import store from './store';
-import '@/scss/site.scss';
+
+Vue.use(VueMeta);
 
 Vue.config.productionTip = false;
 

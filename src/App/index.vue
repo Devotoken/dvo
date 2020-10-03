@@ -18,3 +18,4 @@ export default {
 <style scoped>
     @import './style.scss';
 </style>
+
