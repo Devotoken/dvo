@@ -1,7 +1,9 @@
+@import "~bulma/bulma";
+
 body {
     background: rgb(176,137,255);
     background: linear-gradient(124deg, rgba(176,137,255,1) 0%, rgba(255,152,224,1) 100%);
-    height: 100%;
+    height: 100vh;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;

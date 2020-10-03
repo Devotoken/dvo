@@ -1,28 +1,17 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import HomeView from '../views/HomeView';
-// import DAOView from '../views/DAOView';
-// import PicksView from '../views/PicksView';
-// import RugRadarView from '../views/RugRadarView';
-// import AboutView from '../views/AboutView';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import HomeView from '@/views/HomeView'
 
-Vue.use(VueRouter);
+
+Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
     name: 'HomeView',
-    component: HomeView,
+    component: HomeView
   },
-  // {
-  //   path: '/dao',
-  //   name: 'AboutView',
-  // },
-  // {
-  //   path: '/about',
-  //   name: 'AboutView',
-  // },
-];
+]
 
 const router = new VueRouter({
   mode: 'history',
@@ -30,4 +19,4 @@ const router = new VueRouter({
   routes,
 });
 
-export default router;
+export default router

@@ -1,11 +1,13 @@
 <template>
   <div class="app">
-    WHAT THE FUK
     <TopNav />
+    <router-view />
   </div>
 </template>
 
 <script lang="javascript">
+
+/*eslint-disable */
 import TopNav from '@/components/TopNav';
 
 export default {

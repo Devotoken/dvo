@@ -1,17 +1,16 @@
 <template>
-  <div class="home">
-    XXXXX
-    <!-- <DevoHero /> -->
+  <div class="home">  
+    <DevoHero /> 
   </div>
 </template>
 
 <script>
-// import DevoHero from '@/components/DevoHero';
+import DevoHero from '@/components/DevoHero';
 
 export default {
-  name: 'Home',
+  name: 'HomeView',
   components: {
-    // DevoHero,
+    DevoHero,
   },
 };
 </script>
