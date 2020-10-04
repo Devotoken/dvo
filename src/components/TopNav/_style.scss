@@ -16,18 +16,21 @@
   .navbar-item .is-text {
     text-decoration: none;
   }
-  a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-item.is-active, .navbar-link:focus, .navbar-link:focus-within, .navbar-link:hover, .navbar-link.is-active
-  {
-    background-color: none !important;
-  }
+
   .navbar-item:hover {
-    background-color: none !important;
     background-color: transparent !important;
   }
 
   .navbar-menu {
     background: transparent;
   }
+
+}
+
+.navbar-inverse .navbar-brand:hover, 
+.navbar-inverse .navbar-brand:focus {
+  background-color: transparent;
+  color: #999999;
 }
 
 @media only screen and (max-width: 700px) {
