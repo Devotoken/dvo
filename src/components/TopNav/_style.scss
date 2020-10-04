@@ -7,6 +7,9 @@
     line-height: 24px;
     padding-left: 10px;
     padding-right: 1.2em;
+    img {
+      max-height: 2.75rem
+    }
   }
 
   .navbar-item .buttons {
@@ -25,6 +28,10 @@
     background: transparent;
   }
 
+}
+
+.logo-img {
+  height: 200px;
 }
 
 .navbar-inverse .navbar-brand:hover, 
