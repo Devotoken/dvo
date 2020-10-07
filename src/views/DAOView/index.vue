@@ -9,28 +9,35 @@
           <div class="columns">
             <div class="column is-full has-text-centered">
               <div class="is-size-1 title">
-                DevoDAO Things
+                devoDAO
               </div>
             </div>
           </div>
           <div class="columns">
-            <div class="column is-6 is-offset-3 has-text-centered">
-              <div class="is-size-3 subtitle">
-                 And then some other things... 
-              </div>
+            <div class="column is-full has-text-centered">
+              <div class="is-size-4 subtitle">
+A private sanctuary for Devo investors. Picture yourself walking down an alleyway, suddenly stumbling through an unmarked door into a dimly lit room with a single poker table in the middle and a bar at the back. Through the thick fog of cigar smoke you find a handful of old wealthy men, their worn faces illuminated by the faint glow of an old TV. Broken English fills the room, spoken through thick accents you don't recognise as they pass faded green money to one another and laugh about it. That's devoDAO.</div>
             </div>
           </div>
           <div class="columns">
-            <div class="column is-6 is-offset-3 has-text-centered">
+            <div class="column is-full has-text-centered">
               <div class="is-size-5 textual">
-                 And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally... (see views/ThisComponent/_style.scss)
+              devoDAO is available for chads holding 60 DEVO2
+              <br>If you hold 60 (or more) DEVO2, you will be invited to join a private telegram
+              <br>The contents of the DAO cannot be shared, you'll just have to see for yourself
+              <br>Private DAO games, whitelist spots for Devo's coins, OTC deals and early calls just to give you a taste
               </div>
             </div>
           </div>
-
+      <div class="columns">
+        <div class="column is-full has-text-centered">
+          <div class="is-size-1 textual">
+          <a href="#">ENTER THE DAO - COMING SOON</a>
+         </div>
         </div>
-
-      </div>
+       </div>
+    </div>
+    </div>
 
     </div>
 
@@ -39,7 +46,6 @@
 </template>
 
 <script lang="javascript">
-
 export default {
   name: 'DAOView',
   components: {

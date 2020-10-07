@@ -1,12 +1,28 @@
 .title {
-    margin-top: 200px;
-    color: greenyellow;
+    margin-top: 50px;
+    color: rgb(187, 255, 0);
 }
 
 .subtitle {
     color: rgba(255,255,255,0.7);
+    padding: 5px 200px 0 200px;
 }
 
 .textual {
     color: white;
+    padding: 25px 95px 0 95px;
+}
+
+.textual a {
+    color: white;
+    font-weight: bold;
+}
+
+.textual a:hover {
+    color:rgba(255,255,255,0.7);    
+    background-color: transparent;
+}
+
+.textual #link{
+    font-weight: normal;
 }

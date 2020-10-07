@@ -9,21 +9,22 @@
           <div class="columns">
             <div class="column is-full has-text-centered">
               <div class="is-size-1 title">
-                DevoPicks Rug Radar Things
+                Rug Radar
               </div>
             </div>
           </div>
           <div class="columns">
-            <div class="column is-6 is-offset-3 has-text-centered">
+            <div class="column is-full has-text-centered">
               <div class="is-size-3 subtitle">
-                 And then some other things... 
+               Devo and his team of experts are constantly on the lookout for rugs/scams to protect innocent degens. This list will be actively updated with known & potential scams so that you can avoid them and save your money.
               </div>
             </div>
           </div>
           <div class="columns">
-            <div class="column is-6 is-offset-3 has-text-centered">
+            <div class="column is-full has-text-centered">
               <div class="is-size-5 textual">
-                 And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally... (see views/ThisComponent/_style.scss)
+              Shillable.finance - Maybe not a rug but a copy of unfuddable (UNFUD) where the team just dumped their tokens on everybody (42eth worth)
+             <br>More coming soon!!!!!!!!!!!!!!!!!!
               </div>
             </div>
           </div>
@@ -39,7 +40,6 @@
 </template>
 
 <script lang="javascript">
-
 export default {
   name: 'RugRadarView',
   components: {

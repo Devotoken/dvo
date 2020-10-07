@@ -9,21 +9,21 @@
           <div class="columns">
             <div class="column is-full has-text-centered">
               <div class="is-size-1 title">
-                About Things
+                About
               </div>
             </div>
           </div>
           <div class="columns">
-            <div class="column is-6 is-offset-3 has-text-centered">
-              <div class="is-size-3 subtitle">
-                 And then some other things... 
+            <div class="column is-full has-text-centered">
+              <div class="is-size-2 textual">
+                <a href="https://t.me/devotoken" target="_blank">Come join the community on telegram!</a>
               </div>
             </div>
           </div>
           <div class="columns">
             <div class="column is-6 is-offset-3 has-text-centered">
               <div class="is-size-5 textual">
-                 And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally...And finally... (see views/ThisComponent/_style.scss)
+                 Devo's backstory will soon be told. Stay tuned.
               </div>
             </div>
           </div>
@@ -39,7 +39,6 @@
 </template>
 
 <script lang="javascript">
-
 export default {
   name: 'AboutView',
   components: {

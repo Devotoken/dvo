@@ -1,16 +1,19 @@
 <template>
-  <div class="home red">  
+  <div class="home">  
     <DevoHero /> 
+    <Footer />
   </div>
 </template>
 
 <script>
 import DevoHero from '@/components/DevoHero';
+import Footer from '@/components/Footer';
 
 export default {
   name: 'HomeView',
   components: {
     DevoHero,
+    Footer
   },
   metaInfo: {
     title: 'About',
