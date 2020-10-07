@@ -55,7 +55,7 @@ export default {
     ]
   },
   mounted() {
-    this.$store.dispatch('resetAllForms');
+    // this.$store.dispatch('resetAllForms');
   },
 };
 </script>
