@@ -67,7 +67,7 @@ export default {
 
     tl3.to('#hero-image', {
       x: 10,
-      duration: 0.1,
+      duration: 0.01,
       ease: RoughEase.ease.config({strength:13, points:50})
     })
 
@@ -90,4 +90,5 @@ export default {
 
 <style scoped lang="scss">
   @import './style';
+  @import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap'); 
 </style>
