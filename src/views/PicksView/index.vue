@@ -23,7 +23,8 @@
           <div class="columns">
             <div class="column is-full has-text-centered">
               <div class="is-size-5 textual">
-               Chonker Finance (<a id="link" href="https://chonker.finance" target="_blank">website</a>) - NFT farm with fat cat NFTs. Currently buying on the dip ~$12. 
+               UnityDAO (a id="link" href="https://unitydao.biz) - Two-layer DAO launching a DeFi hedge fund soon where the profits go to the holders.
+               <br>Chonker Finance (<a id="link" href="https://chonker.finance" target="_blank">website</a>) - NFT farm with fat cat NFTs. Currently buying on the dip ~$12. 
                <br>No Brainer Finance (<a id="link" href="https://nobrainer.finance" target="_blank">website</a>) - Another NFT farm. They are quickly progressing along with the farm and releasing soon. Expect pump when that happens.
                <br>Encore (<a id="link" href="https://evault.finance" target="_blank">website</a>) - Missed Core? Let's hope this follows. I've bought 1 and holding onto it for dear life.
               <br>rPepe (<a id="link" href="https://rarepepe.io" target="_blank">website</a>) - These guys are great, some of the best artwork in crypto. Huge things launching on Monday. Seriously check out the website!
