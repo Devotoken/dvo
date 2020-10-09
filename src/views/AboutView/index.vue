@@ -16,7 +16,7 @@
           <div class="columns">
             <div class="column is-full has-text-centered">
               <div class="is-size-2 textual">
-                <a href="https://t.me/devotoken" target="_blank">Come join the community on telegram!</a>
+                <a href="https://t.me/devotoken" target="_blank">Come join the community on telegram</a>
               </div>
             </div>
           </div>
