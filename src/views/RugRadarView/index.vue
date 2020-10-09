@@ -29,8 +29,9 @@
              followers without disclosing that they own the coin. For example, their coin MBT (Moonboytoken) is raising 175 eth and 80 of that eth is going in their pockets. That's fucked up. These tokens have 0 utility and are all copy + pastes of eachother... How the hell can you justify taking $30K USD for that?!
              <br>The tokens so far (that I know of): <a id="link" href="https://t.me/moonboytoken" target="_blank">Moonboytoken</a>, <a id="link" href="https://t.me/simpcryptogroup" target="_blank">SIMP</a>,<a id="link" href="https://t.me/simpcryptogroup" target="_blank"> Girlfriend</a> + others I can't be bothered linking: $CRNK, $HMBE, $SAUCE, $IAC2, $NCL. All which either took an unreasonable amount of eth from presale or had a stupid amount of team tokens that sold right away.
             <br>The "influencers" involved (that I know of): <a id="link" href="https://twitter.com/cryptomocho" target="_blank">Cryptomocho</a>, <a id="link" href="https://twitter.com/El_Crypto_Chapo" target="_blank">El Crypto Chapo</a>, <a id="link" href="https://twitter.com/anderoBTC" target="_blank">AnderoBTC</a> -- Do NOT trust these guys.
+            <br>
             <br>Here's a fun pic from my convo with mocho - avatar doesn't appear b/c he blocked me : - (
-          <br><img src="@/assets/mochothefucko.png" />
+          <br><img id="mocho" src="@/assets/mochoo.png" />
 
               </div>
             </div>
