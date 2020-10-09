@@ -16,7 +16,7 @@
           <div class="columns">
             <div class="column is-full has-text-centered">
               <div class="is-size-3 subtitle">
-              These are investments/projects/coins that I personally look into, who have either shown a great amount of trust or just a solid project I really like. In Devo fashion, these picks will not be here for personal gain, nor will I accept money to shill a project listed here.
+                These are investments/projects/coins that I personally look into, who have either shown a great amount of trust or just a solid project I really like. In Devo fashion, these picks will not be here for personal gain, nor will I accept money to shill a project listed here.
               </div>
             </div>
           </div>

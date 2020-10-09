@@ -6,7 +6,7 @@
           <img class="logo-img" src="@/assets/devo-logo.png" alt="Devo logo">
         </router-link>
       </div>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="isOpen = !isOpen" v-bind:class="{'is-active': isOpen}">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" @click="toggleMenu()" v-bind:class="{'is-active': isOpen}">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -35,18 +35,21 @@ export default {
   },
   data() {
     return {
-      isOpen: false,
+      // isOpen: false,
     };
   },
   mounted() {
   },
   computed: {
+    isOpen() {
+      return this.$store.getters.menuIsOpen;
+    }
   },
   methods: {
-    // doLogout: function () {
-    //   this.$store.commit('REMOVE_SESSION_TOKEN')
-    //   this.$router.push({ path: '/' })
-    // }
+    toggleMenu () {
+      console.log("SIRS...");
+      this.$store.dispatch('toggleMenu');
+    }
   },
 };
 </script>

@@ -9,11 +9,13 @@
 
 /*eslint-disable */
 import TopNav from '@/components/TopNav';
+import Footer from '@/components/Footer';
 
 export default {
   name: 'App',
   components: {
     TopNav,
+    Footer
   },
 };
 </script>
