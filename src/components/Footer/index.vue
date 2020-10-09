@@ -5,8 +5,8 @@
     <div id="" class="navbar-menu">
 
       <div class="navbar-start">
-        <a href="https://t.me/devotoken" class="navbar-item">
-          <img id="hero-image-shadow" width="50px" class="logo-shadow" src="@/assets/telegramlogo.png" />
+        <a href="https://t.me/devotoken" target="_blank" class="navbar-item">
+          <img id="hero-logo" width="40px" class="logo-shadow" src="@/assets/telegramlogo.png" />
         </a>
       </div>
 

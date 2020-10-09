@@ -2,6 +2,7 @@
   <div class="app">
     <TopNav />
     <router-view />
+    <Footer />
   </div>
 </template>
 

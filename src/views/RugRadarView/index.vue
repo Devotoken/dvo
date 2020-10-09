@@ -15,7 +15,7 @@
           </div>
           <div class="columns">
             <div class="column is-full has-text-centered">
-              <div class="is-size-3 subtitle">
+              <div class="is-size-4 subtitle">
                Devo and his team of experts are constantly on the lookout for rugs/scams to protect innocent degens. This list will be actively updated with known & potential scams so that you can avoid them and save your money.
               </div>
             </div>
