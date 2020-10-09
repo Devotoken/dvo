@@ -50,10 +50,6 @@
       margin-top: 4px;
     }
 
-    .navbar-menu .is-active {
-      background-color: rgba(0,0,0,0);
-    }
-
     .navbar-burger {
       top: 0.7em;
       left: -1em;
@@ -99,4 +95,9 @@
       top: 34px;
     }
   }
+}
+.navbar-menu.is-active { 
+  position: absolute; 
+  width: 100%; 
+  background-color: rgba(0,0,0,0.4);
 }

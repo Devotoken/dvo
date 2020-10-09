@@ -1,0 +1,5 @@
+export const TOGGLE_MENU_STATE = 'TOGGLE_MENU_STATE'
+export const SET_MENU_CLOSED = 'SET_MENU_CLOSED'
+export const SET_MENU_OPEN = 'SET_MENU_OPEN'
+
+    

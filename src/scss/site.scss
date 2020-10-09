@@ -9,4 +9,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Yantramanav', sans-serif;
+    overflow-x: hidden;
+}
+
+.is-fullheight {
+    min-height: 100%;
 }

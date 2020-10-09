@@ -15,7 +15,7 @@
           </div>
           <div class="columns">
             <div class="column is-full has-text-centered">
-              <div class="is-size-4 subtitle">
+              <div class="is-size-4 top-title">
               These are investments/projects/coins that I personally look into, who have either shown a great amount of trust or just a solid project I really like. In Devo fashion, these picks will not be here for personal gain, nor will I accept money to list a project here. That would be gay as fuck like every CT/gem calls/"influencer" out there.
               </div>
             </div>
@@ -58,6 +58,7 @@ export default {
     ]
   },
   mounted() {
+    this.$store.dispatch('closeMenu');
   },
 };
 </script>

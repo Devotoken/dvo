@@ -1,20 +1,24 @@
- .footr {
+.footer {
+  bottom: 0;
+  left: 0;
   position: fixed;
-  height: 20px;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.6);
-  background-color: rgba(0,0,0,0.1);
+  right: 0;
+  z-index: 30;
+  height: 60px;
+}
 
-  .navbar-item{
-    color: white;
-  }
-  .navbar-item:hover {
-    background: none;
-     color:rgba(255,255,255,1);
-  }
-  .is-active {
-    color:rgba(255,255,255,1);
-    font-weight: 900;
-    border-bottom: #FF284F solid 3px;
-  }
+.has-text-white {
+  color: white;
+}
 
+.footer-copy {
+  padding-top: 17px;
+  padding-right: 15px;
+}
+
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
 }
