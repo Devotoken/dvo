@@ -4,9 +4,14 @@
 body {
     background: rgb(176,137,255);
     background: linear-gradient(124deg, rgba(176,137,255,1) 0%, rgba(255,152,224,1) 100%);
-    // min-height: 90vh;
+    min-height: 100vh;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Yantramanav', sans-serif;
+    overflow-x: hidden;
+}
+
+.is-fullheight {
+    min-height: 100%;
 }

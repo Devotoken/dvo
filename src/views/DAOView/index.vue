@@ -2,7 +2,7 @@
   <div class="columns">
 
     <div class="column is-full">
-      <div class="columns hero-background clip-ellipse">
+      <div class="columns clip-ellipse">
 
         <div class="column is-full">
 
@@ -14,9 +14,9 @@
             </div>
           </div>
           <div class="columns">
-            <div class="column is-full top-text">
+            <div class="column is-full top-text has-text-centered">
               <div class="is-size-4 top-text">
-A private sanctuary for Devo investors. Picture yourself walking down an alleyway, suddenly stumbling through an unmarked door into a dimly lit room with a single poker table in the middle and a bar at the back. Through the thick fog of cigar smoke you find a handful of old wealthy men, their worn faces illuminated by the faint glow of an old TV. Broken English fills the room, spoken through thick accents you don't recognise as they pass faded green money to one another and laugh about it. That's devoDAO.</div>
+              A private sanctuary for Devo investors. Picture yourself walking down an alleyway, suddenly stumbling through an unmarked door into a dimly lit room with a single poker table in the middle and a bar at the back. Through the thick fog of cigar smoke you find a handful of old wealthy men, their worn faces illuminated by the faint glow of an old TV. Broken English fills the room, spoken through thick accents you don't recognise as they pass faded green money to one another and laugh about it. That's devoDAO.</div>
             </div>
           </div>
           <div class="columns">
@@ -31,7 +31,7 @@ A private sanctuary for Devo investors. Picture yourself walking down an alleywa
           </div>
       <div class="columns">
         <div class="column is-full has-text-centered">
-          <div class="is-size-1 textual">
+          <div class="is-size-1 bottom-text">
           <a href="#">ENTER THE DAO - COMING SOON</a>
          </div>
         </div>

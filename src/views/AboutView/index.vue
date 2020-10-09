@@ -1,5 +1,5 @@
 <template>
-  <div class="columns">
+  <div class="columns is-fullheight">
 
     <div class="column is-full">
       <div class="columns hero-background clip-ellipse">

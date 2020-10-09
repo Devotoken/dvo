@@ -1,11 +1,10 @@
 <template>
-  <div class="home">  
+  <div class="home is-fullheight">  
     <DevoHero /> 
   </div>
 </template>
 <script>
 import DevoHero from '@/components/DevoHero';
-
 
 export default {
   name: 'HomeView',
@@ -22,5 +21,8 @@ export default {
       { property: 'og:description', content: 'Bread for the plebs and DAOs' }
     ]
   }, 
+  mounted() {
+    this.$store.dispatch('closeMenu')
+  }
 };
 </script>

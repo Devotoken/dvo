@@ -21,7 +21,6 @@ import { gsap } from "gsap";
 import { ExpoScaleEase, RoughEase, SlowMo } from "gsap/EasePack";
 gsap.registerPlugin(ExpoScaleEase, RoughEase, SlowMo);
 
-
 export default {
   name: 'DevoHero',
   components: {
